@@ -1,0 +1,13 @@
+WEB CODIAN
+
+In this repository, you will be going to find the stuff related how you can crate an interactive background
+design for your hero section. Basically in this design the background image of the header section
+zoom in when you scroll down. It's looks very decent and attractive design for a website or blog.
+
+You can use this code anywhere you want to use in your website. It's free to use for anyone and anywhere.
+
+For video tutorial of this video: https://www.youtube.com/watch?v=7syB5XM0rq8
+
+for more interesting and cool looking stuff subscribe our YouTUbe Channel'
+
+WEB CODIAN: https://www.youtube.com/channel/UCvDfMTJRY5y-O35vQCVGWKw

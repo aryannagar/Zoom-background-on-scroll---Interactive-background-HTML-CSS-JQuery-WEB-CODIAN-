@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <!-- JQuery CDN -->
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+            text-align: center;
+        }
+
+        section{
+            width: 100%;
+            height: 53.125rem;
+            overflow: hidden;
+            position: relative;
+        }
+
+        section img{
+            width: 100%;
+            top: 0;
+            left: 50%;
+            position: absolute;
+            transform: translate(-50%);
+        }
+
+        .content{
+            color: #fff;
+            background: linear-gradient(135deg, #EA66E3 0%, #5E0BB1 50%, #CA4932 100%);
+        }
+
+        h1{
+            font-size: 4.0625rem;
+        }
+
+        p{
+            width: 80%;
+            text-align: center;
+            margin: 0 auto;
+            font-size: 1.25rem;
+            line-height: 1.875rem;
+        }
+    </style>
+
+</head>
+<body>
+    <section class="main">
+        <img src="img.jpg" alt="WEB CODIAN">
+    </section>
+
+    <section class="content">
+        <h1>WEB CODIAN</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea sunt nulla molestiae est vitae iusto consequuntur cum. Iure odit et, ullam autem provident corrupti voluptates voluptate, officia fugiat recusandae quaerat.</p><br><br>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem pariatur perspiciatis vero saepe asperiores, cum velit, blanditiis consectetur laboriosam architecto excepturi, magni nisi hic aspernatur molestiae! Nobis rerum vitae modi.</p><br><br>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque eligendi sapiente nostrum. Possimus, quos pariatur fuga laboriosam ex autem atque veniam hic ipsam ipsa ut optio tempora nesciunt itaque sit?</p>
+    </section>
+</body>
+<script>
+    $(window).scroll(function(){
+        var scroll = $(window).scrollTop();
+        $(".main img").css({
+            width: (100 + scroll/5) + "%"
+        })
+    })
+</script>
+</html>
